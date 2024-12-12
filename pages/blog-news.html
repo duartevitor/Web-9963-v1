@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+    <meta name="description" content="
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu ultrices turpis. Aliquam in velit vitae neque scelerisque convallis. Proin iaculis mattis sodales. Sed at iaculis ex, non maximus ipsum. ">
+
+    <!-- mini logo-->
+    <link rel="shortcut icon" href="../img/mini-logo.png" type="image/x-icon">
+
+     <!-- ligacao ao bootstrap 5.3 css e á ferramenta javascript do css-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Ligacao a uma framework de animação CSS https://animate.style/-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+
+     <!-- Import font ROBOTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+     <!--CSS file connections-->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+
+</head>
+<body>
+    <header>
+
+        <!-- Logo |  titulo -->
+        <div class="container text-center">
+            <div class="row align-items-start">
+                
+                <div class="col-sm-12 col-md-3">
+                    <p><img src="../img/logo.png" class="img-logo" alt="logotipo do Lorem" ></p>
+                </div>
+                
+                <div class="col-sm-12 col-md-6 div-logo">
+                    <p class="first-title">Lorem Ipsum </p>
+                    <p class="roboto-light second-title animate__animated animate__bounce" >"Neque porro quisquam est qui dolorem <br>ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Barra de menu | estilo sticky -->
+    
+    <nav class="navbar sticky-top  navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/nav-logo.png" alt="Logo" width="15%" class="d-inline-block align-text-top">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              
+              <li class="nav-item">
+                <a class="nav-link active " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Blog</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link  active" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">News</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/about.html">About</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+       <!-- Conteudo da pagina -->
+    <div class="seccao-2" >
+        
+      <div class="accordion" id="accordionExample">
+		<!-- Primeiro item com cartões verticais -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <p class="blog-title"><b>Read</b> our blog here! </p>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+				
+				<div class="card mb-3">
+					 
+					<div class="row g-0">
+					  <!-- esta div vai ocupar 6 das 12 colunas col-md-4 dentro da div Row acima -->
+					  <div class="col-md-6 card-img"> 
+						<a href="../img/trails/c1.jpg" target="_blank">
+							<img src="../img/trails/c1-thumb.jpg" class="img-fluid rounded" alt="Lorem ipsum dolor sit amet!" >
+						</a>
+					  </div>
+					  
+					  <div class="col-md-6 card-text"> <!-- esta div vai ocupar 8 das 12 colunas col-md-8  dentro da div Row acima-->
+						<div class="card-body">
+						  <h5 class="card-title fonte-titulo-cartao">Duis finibus</h5>
+						  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam quos veniam assumenda nostrum ab molestias, facere corporis?</p>
+						  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+						</div>
+					  </div>
+					</div>
+				</div>
+
+				<div class="card mb-3" style="max-width: 540px; margin-left: auto;margin-right: auto;">
+					 
+					<div class="row g-0">
+					  <!-- esta div vai ocupar 6 das 12 colunas col-md-4 dentro da div Row acima -->
+					   <div class="col-md-6 card-img"> 
+						<a href="../img/trails/c2.jpg" target="_blank">
+							<img src="../img/trails/c2-thumb.jpg" class="img-fluid rounded" alt="Lorem ipsum dolor sit amet!" >
+						</a>
+					  </div>
+					  
+					  <div class="col-md-6 card-text"> <!-- esta div vai ocupar 8 das 12 colunas col-md-8  dentro da div Row acima-->
+						<div class="card-body">
+						  <h5 class="card-title fonte-titulo-cartao">Duis finibus</h5>
+						  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam quos veniam assumenda nostrum ab molestias, facere corporis?</p>
+						  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+						</div>
+					  </div>
+					</div>
+				</div>
+				
+				<div class="card mb-3" style="max-width: 540px; margin-left: auto;margin-right: auto;">
+					 
+					 <div class="row g-0">
+					  <!-- esta div vai ocupar 6 das 12 colunas col-md-4 dentro da div Row acima -->
+					   <div class="col-md-6 card-img"> 
+						<a href="../img/trails/c3.jpg" target="_blank">
+							<img src="../img/trails/c3-thumb.jpg" class="img-fluid rounded" alt="Lorem ipsum dolor sit amet!" >
+						</a>
+					  </div>
+					  
+					  <div class="col-md-6 card-text"> <!-- esta div vai ocupar 8 das 12 colunas col-md-8  dentro da div Row acima-->
+						<div class="card-body">
+						  <h5 class="card-title fonte-titulo-cartao">Duis finibus</h5>
+						  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam quos veniam assumenda nostrum ab molestias, facere corporis?</p>
+						  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+						</div>
+					  </div>
+					</div>
+				</div>
+				
+				<div class="card mb-3" style="max-width: 540px; margin-left: auto;margin-right: auto;">
+					 
+					 <div class="row g-0">
+					  <!-- esta div vai ocupar 6 das 12 colunas col-md-4 dentro da div Row acima -->
+					   <div class="col-md-6 card-img"> 
+						<a href="../img/trails/c4.jpg" target="_blank">
+							<img src="../img/trails/c4-thumb.jpg" class="img-fluid rounded" alt="Lorem ipsum dolor sit amet!" >
+						</a>
+					  </div>
+					  
+					  <div class="col-md-6 card-text"> <!-- esta div vai ocupar 8 das 12 colunas col-md-8  dentro da div Row acima-->
+						<div class="card-body">
+						  <h5 class="card-title fonte-titulo-cartao">Duis finibus</h5>
+						  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam quos veniam assumenda nostrum ab molestias, facere corporis?</p>
+						  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+						</div>
+					  </div>
+					</div>
+				</div>
+
+            </div>
+          </div>
+        </div>
+
+		<!-- Segundo item com cartões horizontais alternados -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              
+			  <p class="news-title"><b>Find</b> all the news here! </p>
+			  
+			  
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+				
+				<!-- Cartões -->
+				<div class="card mb-3" style="max-width: 540px;">
+					<div class="row g-0" >
+						
+						<div class="col-md-6" >
+						  <img src="../img/trails/c1-thumb.jpg" class="img-fluid rounded-start" alt="Lorem ipsum dolor sit amet!" >
+						</div>
+						
+						<div class="col-md-6">
+							<div class="card-body">
+							  <h5 class="card-title fonte-titulo-cartao">Card title</h5>
+							  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam quos veniam assumenda nostrum ab molestias, facere corporis? </p>
+							  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="card mb-3" style="max-width: 540px;">
+					<div class="row g-0" >
+
+						<div class="col-md-6">
+							<div class="card-body">
+							  <h5 class="card-title fonte-titulo-cartao">Card title</h5>
+							  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam quos veniam assumenda nostrum ab molestias, facere corporis? </p>
+							  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+							</div>
+						 </div>
+						
+						<div class="col-md-6" >
+						  <img src="../img/trails/c2-thumb.jpg" class="img-fluid rounded-end" alt="Lorem ipsum dolor sit amet!" >
+						</div>
+					</div>
+				</div>
+
+				<div class="card mb-3" style="max-width: 540px;">
+					<div class="row g-0" >
+						
+						<div class="col-md-6" >
+						  <img src="../img/trails/c3-thumb.jpg" class="img-fluid rounded-start" alt="Lorem ipsum dolor sit amet!" >
+						</div>
+						
+						<div class="col-md-6">
+							<div class="card-body">
+							  <h5 class="card-title fonte-titulo-cartao">Card title</h5>
+							  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam quos veniam assumenda nostrum ab molestias, facere corporis? </p>
+							  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="card mb-3" style="max-width: 540px;">
+					<div class="row g-0" >
+
+						<div class="col-md-6">
+							<div class="card-body">
+							  <h5 class="card-title fonte-titulo-cartao">Card title</h5>
+							  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam quos veniam assumenda nostrum ab molestias, facere corporis? </p>
+							  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+							</div>
+						 </div>
+						
+						<div class="col-md-6" >
+						  <img src="../img/trails/c4-thumb.jpg" class="img-fluid rounded-end" alt="Lorem ipsum dolor sit amet!" >
+						</div>
+					</div>
+				</div>
+			  
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    
+    </div>  
+
+    <div class="footer">
+      <p class="roboto-light p-footer">
+          You can reach us @ 
+          <a href="https://www.instagram.com/bike.and.ride/?hl=en">
+              <img src="../img/insta.png" alt="Logo" width="2%" >
+          </a>
+          or write us a letter 
+          <a href="mailto:Lorem@ipsum.com?subject=Lorem%20Ipsum%20Subject&body=You%20are%20invited!!!" target="_top">
+              <img src="../img/email.png" alt="Logo" width="3%" class="d-inline-block">
+          </a>
+      </p>
+  </div>
+</body>
+</html>
